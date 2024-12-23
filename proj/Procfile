@@ -1,1 +1,1 @@
-web: python pydb.py
+web: gunicorn pydb:app
